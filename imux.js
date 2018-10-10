@@ -1,6 +1,6 @@
-import * as request from 'request-promise';
-import * as fs from 'fs';
-import * as mime from 'mime';
+const request = require('request-promise');
+const fs = require('fs');
+const mime = require('mime');
 
 /**
  * For iMUX API Version 5.6 / 11.08.2017

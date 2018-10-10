@@ -1,7 +1,7 @@
 {
   "name": "imux",
   "description": "Node.js integration with MIT-xperts iMux Multiplexer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./imux.js",
   "license": "MIT",
   "author": "Jon Ribeiro <contact@jonathas.com>",

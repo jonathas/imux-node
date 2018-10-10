@@ -1,5 +1,3 @@
-declare function imux(): imux;
-
 declare namespace imux {
 
     export interface CarouselFile {
@@ -141,9 +139,10 @@ declare namespace imux {
     export function uploadFile(carouselId: number, filePath: string): Promise<CarouselOperation>;
 
     /**
-     * This endpoint extracts the zip file automatically inside iMux
+     * This endpoint extracts the zip file automatically inside iMux.
+     * purgeBefore defaults to false
      */
-    export function uploadZipFile(carouselId: number, filePath: string, purgeBefore: boolean = false): Promise<CarouselUploadZip>;
+    export function uploadZipFile(carouselId: number, filePath: string, purgeBefore?: boolean): Promise<CarouselUploadZip>;
 
     export function updateCarousel(carouselId: number, data: Object): Promise<UpdateCreateCarousel>;
 
