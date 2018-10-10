@@ -17,7 +17,7 @@ A Node.js module for acessing the [MIT-xperts iMux Multiplexer](http://www.mit-x
 ## Usage
 
 ```javascript
-const iMux = require('imux');
+import * as iMux from "imux";
 
 const sendEPGToiMuxServers = async (zipPath) => {
     await iMux.login(process.env.IMUX_API_BASE, process.env.IMUX_USER, process.env.IMUX_PASSWORD);
