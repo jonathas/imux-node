@@ -1,0 +1,32 @@
+{
+  "name": "imux",
+  "description": "Node.js integration with MIT-xperts iMux Multiplexer",
+  "version": "0.0.1",
+  "main": "./imux.js",
+  "license": "MIT",
+  "author": "Jon Ribeiro <contact@jonathas.com>",
+  "scripts": {
+    "start": "node app.js",
+    "prestart": "npm install"
+  },
+  "homepage": "https://github.com/jonathas/imux-node",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathas/imux-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonathas/imux-node/issues"
+  },
+  "keywords": [
+    "imux",
+    "multiplexer",
+    "dvb",
+    "dsm-cc",
+    "hbbtv"
+  ],
+  "dependencies": {
+    "mime": "^2.2.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
