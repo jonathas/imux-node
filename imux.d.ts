@@ -154,3 +154,5 @@ declare namespace imux {
     export function activate(): Promise<any>;
 
 }
+
+export = imux;

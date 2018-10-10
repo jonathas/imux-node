@@ -1,4 +1,4 @@
-# imux-node
+# imux
 
 A Node.js module for acessing the [MIT-xperts iMux Multiplexer](http://www.mit-xperts.com/products/imux/)
 
