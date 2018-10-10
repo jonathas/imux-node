@@ -19,7 +19,8 @@ A Node.js module for acessing the [MIT-xperts iMux Multiplexer](http://www.mit-x
 ```javascript
 import * as iMux from "imux";
 
-const sendEPGToiMuxServers = async (zipPath) => {
+const sendZipFile = async (zipPath) => {
+    // An example of API base would be: https://172.12.75.139/imux/api/api.php
     await iMux.login(process.env.IMUX_API_BASE, process.env.IMUX_USER, process.env.IMUX_PASSWORD);
     await iMux.uploadZipFile(1, zipPath, true);
     await iMux.activate();
